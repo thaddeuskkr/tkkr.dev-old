@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>thaddeus kuah</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/643dbed1ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>thaddeus kuah</h1>
+        <h2>gamer / developer / music enjoyer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://instagram.com/t.kkr_"><i class="fa-brands fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/thaddeuskkr"><i class="fa-brands fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://discord.com/users/275830234262142978"><i class="fa-brands fa-discord"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://x.com/thaddeuskkr"><i class="fa-brands fa-x-twitter"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>celerity</h2>
+            <p>
+                A free feature-rich music Discord bot, coded in TypeScript. Focuses on performance, without sacrificing extensive functionality and top-tier audio quality. Supports multiple platforms, such as YouTube Music, YouTube, Spotify, Apple Music and SoundCloud, along with HTTP sources and playlists.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;TypeScript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Lavalink</div>
+            </div>
+            <a href="https://discord.com/oauth2/authorize?client_id=1063698207793762406&permissions=279176399888&scope=bot%20applications.commands"><button class="btn_one">Invite</button></a>
+            <a href="https://github.com/thaddeuskkr/Celerity/"><button class="btn_two">GitHub</button></a>
+        </section>
+        <section>
+            <h2>hack club winter</h2>
+            <p>
+                Winter Hardware Wonderland, organised by Hack Club, a community of young makers and coders. Made a project (smart home) using a Raspberry Pi 4 and an OLED display, using Zigbee to connect to home appliances via Home Assistant.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Hardware</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Hack Club</div>
+            </div>
+            <a href="https://hackclub.com/winter/"><button class="btn_one">Website</button></a>
+            <a href="https://github.com/hackclub/winter"><button class="btn_two">Projects Repository</button></a>
+        </section>
+        <section>
+            <h2>garbage detect</h2>
+            <p>
+                A litter detection, monitoring and notification system using AWS services and a camera, with an extensive backend and a simple frontend. Uses AI/ML to detect litter, and notifies the relevant people when a certain threshold is met, allowing the cleaners to clean the litter up before it is piled up. This project was done with a group during the AWS Accelerator in 2021, and even though I did not contribute as much, I learnt how to work with a team of people I don't know effectively.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Hardware</div>
+                <div><i class="fas fa-circle"></i>&nbsp;AWS</div>
+            </div>
+            <a href="https://docs.google.com/presentation/d/1tg1i3RpwaPwS0hSP5i6Yp2AIZppvJkLqKeJ9uFer8y0/edit?usp=sharing"><button class="btn_one">Presentation</button></a>
+            <a href="https://docs.google.com/presentation/d/14wRFLxzZ38-xjqa2_f8_KkQ7a_W2Am8Cn2DfwKe9ezY/edit?usp=sharing"><button class="btn_two">Architecture Diagram</button></a>
+        </section>
+        <section>
+            <h2>osu!drive</h2>
+            <p>
+                A simple account switcher for osu!, that keeps settings, to manage multiple accounts and servers in the same install directory using file renaming. Makes sure that one's password and username does not have to be entered on every log-in.<br>Part of my Node.js learning process.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Node.js</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Games</div>
+            </div>
+            <a href="https://github.com/thaddeuskkr/osudrive"><button class="btn_one">GitHub</button></a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    I'm 17 years old this year, and I'm a student in Singapore with various hobbies and skills.<br>
+                    I'm a people-centered and understanding person, always willing to help others and try new things.<br>
+                    I'd probably describe myself as a hobbyist programmer and gamer.<br>
+                </p>
+                <h2>details</h2>
+                <ul>
+                    <li><b>ENFP-A</b> (Campaigner) personality type, <b>Enneagram Type 6</b> Wing 5 (6w5)</li>
+                    <li>Enjoys listening to <b>k-pop</b> and <b>pop</b></li>
+                    <li>Watches quite a bit of <b>romance anime</b></li>
+                    <li><b>Tech enthusiast / technophile</b>, loves playing around with new technology and learning about it</li>
+                    <li>Always <b>willing to learn new things</b>, improve myself and help others</li>
+                    <li><b><i>Perpetually being someone else's tech support</i></b></li>
+                </ul>
+                <h2>skills</h2>
+                <ul>
+                    <li>TypeScript / JavaScript</li>
+                    <li>Python</li>
+                    <li>Git & Docker</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Rust</li>
+                </ul>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    expected to see a contact form? nah, i'm too lazy.<br>
+                    instead, you can drop me an email at <a href="mailto:tk@tkkr.dev">tk@tkkr.dev</a> or message me on Discord at <b>@t.kkr</b>.<br>
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            tkkr.dev <br> <a href="mailto:tk@tkkr.dev">drop me an email!</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
