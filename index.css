@@ -110,7 +110,7 @@ ul {
     transition: 0.4s ease-in-out;
     border-radius: 0px 0px 100px 100px;
 }
-#work {
+#projects {
     width: 10vw;
     height: 10vw;
     text-align: center;
@@ -149,7 +149,7 @@ ul {
     background: rgba(153, 102, 204, 0.9);
     cursor: pointer;
 }
-#work:hover {
+#projects:hover {
     background: rgba(153, 102, 204, 0.9);
     cursor: pointer;
 }
@@ -336,7 +336,7 @@ ul {
     #contact {
         display: none;
     }
-    #work {
+    #projects {
         display: none;
     }
     #footer {

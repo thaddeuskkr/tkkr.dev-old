@@ -12,18 +12,18 @@ function closeabout() {
         $('#about_container').css('display', 'none');
     }, 1000);
 }
-function showwork() {
-    $('#work_container').css('display', 'inherit');
-    $('#work_container').addClass('animated slideInRight');
+function showprojects() {
+    $('#projects_container').css('display', 'inherit');
+    $('#projects_container').addClass('animated slideInRight');
     setTimeout(function () {
-        $('#work_container').removeClass('animated slideInRight');
+        $('#projects_container').removeClass('animated slideInRight');
     }, 1000);
 }
-function closework() {
-    $('#work_container').addClass('animated slideOutRight');
+function closeprojects() {
+    $('#projects_container').addClass('animated slideOutRight');
     setTimeout(function () {
-        $('#work_container').removeClass('animated slideOutRight');
-        $('#work_container').css('display', 'none');
+        $('#projects_container').removeClass('animated slideOutRight');
+        $('#projects_container').css('display', 'none');
     }, 1000);
 }
 function showcontact() {
@@ -48,6 +48,6 @@ setTimeout(function () {
         $('#box').css('display', 'none');
         $('#about').removeClass('animated fadeIn');
         $('#contact').removeClass('animated fadeIn');
-        $('#work').removeClass('animated fadeIn');
+        $('#projects').removeClass('animated fadeIn');
     }, 1000);
 }, 1500);

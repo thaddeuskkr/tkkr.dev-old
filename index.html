@@ -13,12 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="application-name" content="thaddeus kuah - tkkr.dev">
-    <meta name="description" content="a 18 year old singaporean student, self-taught programmer and gamer with various skills, talents and hobbies.">
+    <meta name="description" content="a 18 year old singaporean student, self-taught hobbyist programmer and gamer with various skills, talents and hobbies.">
     <meta name="keywords" content="tkkr,thaddeuskkr,Thaddeus,Kuah">
     <meta name="author" content="thaddeus kuah <tk@tkkr.dev>">
     <meta name="theme-color" content="#9966cc">
     <meta property="og:title" content="thaddeus kuah">
-    <meta property="og:description" content="a 18 year old singaporean student, self-taught programmer and gamer with various skills, talents and hobbies.">
+    <meta property="og:description" content="a 18 year old singaporean student, self-taught hobbyist programmer and gamer with various skills, talents and hobbies.">
     <meta property="og:image" content="https://www.tkkr.dev/assets/ogimage.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:url" content="https://www.tkkr.dev/">
@@ -37,14 +37,14 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>thaddeus kuah</h1>
-        <h2>gamer / developer / music enjoyer</h2>
+        <h2>gamer / self-taught hobbyist programmer</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
+            <a onclick="showprojects()">projects</a>
             <a onclick="showcontact()">contact</a>
         </div>
         <table>
@@ -56,17 +56,32 @@
                 </tr>
         </table>
     </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+    <div id="projects_container" class="container">
+        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+        <h1>projects.</h1>
         <section>
             <h2>celerity</h2>
             <p>
-                A free feature-rich music Discord bot, coded in TypeScript. Focuses on performance, without sacrificing extensive functionality and top-tier audio quality. Supports multiple platforms, such as YouTube Music, YouTube, Spotify, Apple Music and SoundCloud, along with HTTP sources and playlists.
+                A free feature-rich Discord music bot, coded in TypeScript. Focuses on performance, without sacrificing extensive functionality and top-tier audio quality. Supports multiple platforms, such as YouTube Music, YouTube, Spotify, Apple Music and SoundCloud, along with HTTP sources and playlists.
             </p>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;TypeScript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Node.js</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Lavalink</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Docker</div>
+            </div>
+            <a href="https://discord.com/oauth2/authorize?client_id=1063698207793762406&permissions=279176399888&scope=bot%20applications.commands"><button class="btn_one">Invite</button></a>
+            <a href="https://github.com/thaddeuskkr/Celerity/"><button class="btn_two">GitHub</button></a>
+        </section>
+        <section>
+            <h2>docker development container</h2>
+            <p>
+                An Ubuntu development container running the latest release of Ubuntu for remote SSH development, featuring a full-fledged development environment with a simple setup. Comes with multiple preinstalled tools and an SSH server, with passthrough of GPG and SSH keys, designed to work with Visual Studio Code's Remote - SSH extension.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Bash</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Linux (Ubuntu)</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Docker</div>
             </div>
             <a href="https://discord.com/oauth2/authorize?client_id=1063698207793762406&permissions=279176399888&scope=bot%20applications.commands"><button class="btn_one">Invite</button></a>
             <a href="https://github.com/thaddeuskkr/Celerity/"><button class="btn_two">GitHub</button></a>
@@ -87,7 +102,7 @@
         <section>
             <h2>garbage detect</h2>
             <p>
-                A litter detection, monitoring and notification system using AWS services and a camera, with an extensive backend and a simple frontend. Uses AI/ML to detect litter, and notifies the relevant people when a certain threshold is met, allowing the cleaners to clean the litter up before it is piled up. This project was done with a group during the AWS Accelerator in 2021, and even though I did not contribute as much, I learnt how to work with a team of people I don't know effectively.
+                A litter detection, monitoring and notification system using AWS services and a camera, with an extensive backend and a simple frontend. Uses AI/ML to detect litter, and notifies the relevant people when a certain threshold is met, allowing the cleaners to clean the litter up before it is piled up. This project was done with a group during the AWS Accelerator in 2021.
             </p>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;Python</div>
@@ -115,17 +130,15 @@
             <section>
                 <h2>about me</h2>
                 <p>
-                    I'm 18 years old this year, and I'm a student in Singapore with various hobbies and skills.<br>
-                    I'm a people-centered and understanding person, always willing to help others and try new things.<br>
-                    I'd probably describe myself as a hobbyist programmer and gamer.<br>
+                    I'm 18 years old this year, and I'm a student in Singapore with various hobbies and skills.
                 </p>
                 <img style="max-width: 100%; height: auto; border-radius: 10px;" src="https://discord.c99.nl/widget/theme-3/275830234262142978.png" alt="Discord Status - t.kkr">
                 <h2>details</h2>
                 <ul>
                     <li><b>ENTP</b> personality type, <b>Enneagram Type 6</b> Wing 5 (6w5)</li>
-                    <li>Enjoys listening to <b>k-pop</b> and <b>pop</b></li>
+                    <li>Enjoys listening to <b>k-pop</b>, <b>j-pop</b> and <b>pop</b></li>
                     <li>Watches quite a bit of <b>romance anime</b></li>
-                    <li><b>Tech enthusiast / technophile</b>, loves playing around with new technology and learning about it</li>
+                    <li><b>Tech enthusiast</b>, loves playing around with new technology and learning about it</li>
                     <li>Always <b>willing to learn new things</b>, improve myself and help others</li>
                     <li><b><i>Perpetually being someone else's tech support</i></b></li>
                 </ul>
@@ -133,10 +146,12 @@
                 <ul>
                     <li>TypeScript / JavaScript</li>
                     <li>Python</li>
-                    <li>Git & Docker</li>
+                    <li>Git</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Rust</li>
+                    <li>Bash</li>
+                    <li>Docker</li>
+                    <li>RegEx</li>
                 </ul>
             </section>
         </div>
