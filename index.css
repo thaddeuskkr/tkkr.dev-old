@@ -188,6 +188,9 @@ ul {
     overflow-y: auto;
     display: none;
 }
+.container a {
+    color: #f5c2e7;
+}
 .container div {
     font-size: 25px;
     margin: 20px 0px;
